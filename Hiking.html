@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiking on Glaciers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="">
+        <center><h1 id="">Ice climbing & hiking on glaciers</h1></center>
+    </div>
+
+    <hr>
+    <br>
+    <div id="hikingBody2">
+        <img class="pic1" src="hiking1.jpg" alt="" title=""/>
+        <img class="hikingText" src="glaciermiddle.png" alt="" title="">
+        <img class="pic2" src="hiking3.jpg" alt="" title=""/>
+
+    </div>
+    <br>
+
+    <hr>
+    <div id="">
+      <br>
+        <p style="font-size:1.01vw;">
+            Glacier Experience is a small group experience that offers an easy glacier hike on
+            Sólheimajökull glacier with an experienced glacier guide and is available all year around. The tour offers a pick-up
+            from Reykjavík or a meet on location<br> at Sólheimajökull glacier. Add even more adventure to your stay in
+            Iceland and come explore this amazing crawling glacier with us.
+        </p>
+        <p style="font-size:1.01vw;">
+            Sólheimajökull glacier is an outlet from the mighty Mýrdalsjökull and is surrounded by some of Iceland’s
+            most grand volcanoes and during summertime, a glacier lagoon forms in front of the glacier only adding to
+            the charm of the<br> location. This popular day tour is the perfect way to get in real contact with the true
+            reason behind the name Ice-land!
+        </p>
+        <br>
+    </div>
+
+
+    <nav class="navbar">
+      <hr>
+      <a href="index.html">Home</a>|
+      <a href="NorthernLights.html">The Northern Lights</a>|
+      <a href="Hiking.html">Hiking on Glaciers</a>|
+      <a href="#" onclick="openPopup()">Contact Us</a>
+      <p id="copyright"><b>2022 @ Project 1 by Keneth Astudillo</b></p>
+    </nav>
+
+    <div class="popup" id="popup">
+      <img src="test.png">
+      <iframe src="ContactUs.html" width="100%" height="360px;" style="border:3px solid black;margin-top:20px;"></iframe>
+      <button type="button" onclick="closePopup()">Exit</button>
+    </div>
+
+
+
+<script>
+let popup = document.getElementById("popup");
+
+function openPopup(){
+  popup.classList.add("open-popup");
+}
+
+function closePopup(){
+  popup.classList.remove("open-popup");
+}
+
+</script>
+
+
+
+</body>
+</html>
