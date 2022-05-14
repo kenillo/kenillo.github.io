@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(27,27,27);
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  width: 320px;
+  height: 610px;
+  margin: 50px 160px;
+  border-radius: 15px;
+  border:3px solid white;
+
+}
+
+.card-image {
+  height: 310px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+
+}
+
+.tf2-1 {
+  background-image: url(https://wiki.teamfortress.com/w/images/a/a9/Icon_scout_blue.jpg);
+
+}
+
+.tf2-2 {
+  background-image: url(https://wiki.teamfortress.com/w/images/a/ac/Icon_sniper.jpg);
+
+}
+.card h2 {
+  padding: 10px;
+}
+
+.card p {
+  padding: 10px;
+}
+
+.card a {
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  margin: 20px 50px;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+.card:hover {
+  background-color: rgb(62, 62, 62);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+
+}
+
+
+
+
+/* TF2 center */
+.myDiv1{
+  text-align: center;
+
+}
+/* #F3A957 */
+/* TF2 logo */
+.myDiv1 h1{
+  background-color: #CF7336;
+  display: inline-block;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  border: 3px solid black;
+}
+
+/* Pick your class center */
+.myDiv2{
+  text-align: center;
+
+}
+
+/* Pick your class style */
+.myDiv2 h2{
+  background-color: #CF7336;
+  display: inline-block;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  border: 3px solid black;
+
+}
+
+
+
+/* popup window 1 background color */
+.mdlwindow{
+  background-color: rgba(0,0,255,0.3);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity:0;
+  pointer-events: none;
+
+}
+
+/* this function closes the popup window */
+.mdlwindow:target{
+  opacity: 1;
+  pointer-events: auto;
+
+}
+
+/* popup window 2 background color */
+#anothernewmyapple:target{
+  opacity: 1;
+  pointer-events: auto;
+  background-color: rgba(255,0,0,0.3);
+
+}
+
+/* popup window box main*/
+.messagebox{
+  background-color: white;
+  width: 25%;
+  margin: auto;
+  text-align: center;
+  margin-top: 11%;
+  padding: 2%;
+  border-radius: 15px;
+
+}
+
+/* popup close button color */
+.messagebox a{
+  font-size: 20px;
+  padding: 15px 20px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 15px;
+
+}
+
+.messagebox:hover {
+  background-color: rgb(62, 62, 62);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
