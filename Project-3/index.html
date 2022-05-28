@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Project 3 Kenneth</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <header>
+        <h1>Guess My Number</h1>
+        <small>Guess the number between 1 and 100</small>
+    </header>
+
+
+    <div id="container">
+      
+      <img id="img" src="think.png" style="width: 150px; height: 150px">
+
+      <p id="outputtext">Guess a number below</p>
+
+    <div>
+      <input type="text" id="userInput" class="input" placeholder="Guess a number">
+    </div>
+
+    <br><br>
+      <button class="button button2" id="check">Check</button><button class="button button2" id="restart">Reset</button>
+      <p>Guess History: <span id="guesses"></span></p>
+      <p>Lives Remaining: <span id="remaining">10</span></p>
+      <p>Best Attempt: <span id="score">0</span></p>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
